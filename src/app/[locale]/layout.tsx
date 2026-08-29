@@ -44,7 +44,7 @@ export default async function LocaleLayout({
         <html
             lang={locale}
             dir={locale === "fa" ? "rtl" : "ltr"}
-            className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
+            className={`${geistSans.variable} ${geistMono.variable} h-full antialiased dark`}>
             <body className="min-h-full flex flex-col">
                 <NextIntlClientProvider messages={messages}>
                     {children}
