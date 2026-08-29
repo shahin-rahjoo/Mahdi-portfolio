@@ -1,0 +1,48 @@
+{
+    "headerNav": {
+        "homeBTN": "Home",
+        "aboutBTN": "About Me",
+        "projectsBTN": "Projects",
+        "contactBTN": "Contact"
+    },
+    "footer": {
+        "IDK": ""
+    },
+    "home": {
+        "hero": {
+            "title": "Lorem ipsum dolor sit amet.",
+            "subtitle": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur adipiscing elit quisque faucibus ex sapien vitae. Ex sapien vitae pellentesque sem placerat in id. Placerat in id cursus mi pretium tellus duis. Pretium tellus duis convallis tempus leo eu aenean."
+        },
+        "intoduction": {
+            "title": "Introduction",
+            "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur adipiscing elit quisque faucibus ex sapien vitae. Ex sapien vitae pellentesque sem placerat in id. Placerat in id cursus mi pretium tellus"
+        },
+        "projectsHighlight": {
+            "project#": {
+                "title": "PRJTIT",
+                "description": "PRJDES"
+            }
+        }
+    },
+    "aboutPage": {
+        "aboutMe": {
+            "Title": "About Me:",
+            "Description": "The standard chunk of Lorem Ipsum used since 1966 is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham."
+        },
+        "skillsAndTools": {
+            "title": "Skills and Tools"
+        }
+    },
+    "projects": {
+        "title": "My Projects",
+        "project#": {
+            "title": "PRJTIT",
+            "description": "PRJDES"
+        }
+    },
+    "contact": {
+        "title": "Contant Me",
+        "description": "Lorem ipsum dolor sit amet.",
+        "form": {}
+    }
+}
