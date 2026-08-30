@@ -1,57 +1,47 @@
 import Image from "next/image";
+import { getTranslations } from "next-intl/server";
 
-const description = () => {
+const description = async () => {
+    const t = await getTranslations("aboutPage");
     return (
         <div
             className="flex 
                 flex-col
-                gap-y-20
                 lg:flex-row
+                px-10
                 lg:px-20
                 justify-evenly
                 items-center
                 my-10">
             <div
                 className="
+                mb-8
                     lg:w-1/2
                     flex
                     justify-center
                     lg:shrink-0
-                    lg:justify-start
                     w-full">
                 <Image
-                    src="/images/image.png"
+                    src="/images/imagem.png"
                     width={300}
-                    height={400}
+                    height={300}
                     priority={true}
                     alt="picture"
                     title="picture"
-                    className="w-full max-w-fit object-cover rounded-4xl"
+                    className="w-full max-w-fit object-cover rounded-2xl"
                 />
             </div>
-            <div className="px-20 lg:px-0">
+            <div className="lg:px-0 sm:px-20 md:px-30">
                 <h2
                     className="font-bold
                         text-primary
                         text-2xl
                         md:text-4xl
                         lg:text-5xl
-                        mb-10">
-                    About ME
+                        lg:mb-10">
+                    {t("aboutMe.title")}
                 </h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et
-                    accusamus laborum dolores culpa aspernatur omnis voluptatem
-                    esse facere. Nobis, magnam aut possimus provident cumque quo
-                    inventore, veniam consequuntur aliquid temporibus officiis
-                    est, tenetur cupiditate in omnis iste porro voluptate ab.
-                    Corrupti ex minima velit consequuntur ducimus maiores animi
-                    quasi, doloremque laboriosam optio, incidunt molestiae
-                    beatae? Quo doloribus, rem officia magni amet tempora
-                    exercitationem modi, laborum adipisci aspernatur suscipit,
-                    dolores mollitia. Vitae eveniet pariatur, qui voluptas
-                    deleniti libero natus nemo accusamus veritatis accusantium
-                </p>
+                <p>{t("aboutMe.description")}</p>
             </div>
         </div>
     );
