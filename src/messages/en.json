@@ -8,7 +8,7 @@
     "footer": {
         "IDK": ""
     },
-    "home": {
+    "homePage": {
         "hero": {
             "title": "Lorem ipsum dolor sit amet.",
             "subtitle": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur adipiscing elit quisque faucibus ex sapien vitae. Ex sapien vitae pellentesque sem placerat in id. Placerat in id cursus mi pretium tellus duis. Pretium tellus duis convallis tempus leo eu aenean."
@@ -33,16 +33,47 @@
             "title": "Skills and Tools"
         }
     },
-    "projects": {
+    "projectsPage": {
         "title": "My Projects",
         "project#": {
             "title": "PRJTIT",
             "description": "PRJDES"
         }
     },
-    "contact": {
+    "contactPage": {
         "title": "Contant Me",
         "description": "Lorem ipsum dolor sit amet.",
-        "form": {}
+        "touch": "Get In Touch With Me.",
+        "form": {
+            "title": "Contact Form",
+            "name": {
+                "title": "Name",
+                "input": "Enter your name",
+                "inputErrorMin": "Name must be at least 2 characters.",
+                "inputErrorMax": "Name cannot be more than 50 characters."
+            },
+            "email": {
+                "title": "Email",
+                "input": "you@example.com",
+                "inputError": "Invalid Email address."
+            },
+            "subject": {
+                "title": "Subject",
+                "input": "Message subject",
+                "inputErrorMin": "Subject must be at least 5 characters.",
+                "inputErrorMax": "Subject cannot be more than 80 characters."
+            },
+            "textArea": {
+                "title": "Message",
+                "input": "Write your message",
+                "inputErrorMin": "Message must be at least 20 characters.",
+                "inputErrorMax": "Message cannot be more than 500 characters."
+            },
+            "submitBtn": "Submit",
+            "submittingBtn": "submiting...",
+            "clearBtn": "Clear",
+            "submitSuc": "Your message was sent successfully.",
+            "submitErr": "Failed to send your message. Please try again."
+        }
     }
 }
