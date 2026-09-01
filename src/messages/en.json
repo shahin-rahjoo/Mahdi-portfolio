@@ -35,9 +35,15 @@
     },
     "projectsPage": {
         "title": "My Projects",
-        "project#": {
-            "title": "PRJTIT",
-            "description": "PRJDES"
+        "description": "Showcase About Works.",
+        "projectDetails": {
+            "title": "Project Detail",
+            "subTitle": "Details About The Project",
+            "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur adipiscing elit quisque faucibus ex sapien vitae. Ex sapien vitae pellentesque sem placerat in id. Placerat in id cursus mi pretium tellus",
+            "story": {
+                "title": "Project Story",
+                "description": "m ipsum dolor sit amet consectetur adipiscing elitm ipsum dolor sit amet consectetur adipiscing elitm ipsum dolor sit amet consectetur adipiscing elitm ipsum dolor sit amet consectetur adipiscing elit"
+            }
         }
     },
     "contactPage": {
