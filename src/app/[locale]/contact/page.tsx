@@ -1,6 +1,12 @@
 import { ContactForm } from "@/components/ui/form";
-import { getTranslations } from "next-intl/server";
-const ContactPage = async () => {
+import { getTranslations, setRequestLocale } from "next-intl/server";
+const ContactPage = async ({
+    params,
+}: {
+    params: Promise<{ locale: string }>;
+}) => {
+    const { locale } = await params;
+    setRequestLocale(locale);
     const t = await getTranslations("contactPage");
     return (
         <div className="flex flex-col items-center px-5 mt-20 gap-20">

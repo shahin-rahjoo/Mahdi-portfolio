@@ -6,6 +6,7 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import "../globals.css";
 import { Toaster } from "@/components/ui/sonner";
+import { setRequestLocale } from "next-intl/server";
 import BackgroundGlow from "@/components/BackgroundGlow";
 
 const geistSans = Geist({
@@ -39,6 +40,8 @@ export default async function LocaleLayout({
     if (!routing.locales.includes(locale as (typeof routing.locales)[number])) {
         notFound();
     }
+
+    setRequestLocale(locale);
 
     const messages = await getMessages();
 
