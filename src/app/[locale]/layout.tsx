@@ -6,6 +6,7 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import "../globals.css";
 import { Toaster } from "@/components/ui/sonner";
+import BackgroundGlow from "@/components/BackgroundGlow";
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
@@ -47,6 +48,7 @@ export default async function LocaleLayout({
             dir={locale === "fa" ? "rtl" : "ltr"}
             className={`${geistSans.variable} ${geistMono.variable} h-full antialiased dark`}>
             <body className="min-h-full flex flex-col">
+                <BackgroundGlow />
                 <NextIntlClientProvider messages={messages}>
                     {children}
                 </NextIntlClientProvider>
