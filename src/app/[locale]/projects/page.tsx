@@ -1,10 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import { projects } from "@/data/projects";
-import { Card, CardContent } from "@/components/ui/card";
 import { setRequestLocale } from "next-intl/server";
 import { getTranslations } from "next-intl/server";
-import { get } from "http";
 
 const ProjectsPage = async ({
     params,

@@ -10,18 +10,18 @@
     },
     "homePage": {
         "hero": {
-            "title": "Lorem ipsum dolor sit amet.",
-            "subtitle": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur adipiscing elit quisque faucibus ex sapien vitae. Ex sapien vitae pellentesque sem placerat in id. Placerat in id cursus mi pretium tellus duis. Pretium tellus duis convallis tempus leo eu aenean."
+            "title": "GRAPHIC DESIGNER",
+            "subtitle": "Lord cursus mi pretium tellus duis. Pretium tellus duis convallis tempus leo eu aenean.",
+            "button": "EXPLORE WORKS"
         },
-        "intoduction": {
-            "title": "Introduction",
-            "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur adipiscing elit quisque faucibus ex sapien vitae. Ex sapien vitae pellentesque sem placerat in id. Placerat in id cursus mi pretium tellus"
+        "aboutPreview": {
+            "title": "Let’s get know about me closer",
+            "description": "Aaronn is a New York-based visual designer focusing on branding and visual identity. Her portfolio showcases her wide range of work, spanning books, posters and web design.",
+            "button": "Discover More About Me"
         },
         "projectsHighlight": {
-            "project#": {
-                "title": "PRJTIT",
-                "description": "PRJDES"
-            }
+            "title": "My Projects Highlight",
+            "button": "Explore More"
         }
     },
     "aboutPage": {

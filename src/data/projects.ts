@@ -16,6 +16,7 @@ export type Project = {
     heroImage: string;
     images: string[];
     techStack?: string[];
+    featured?: boolean;
 };
 export const projects: Project[] = [
     {
@@ -41,6 +42,7 @@ export const projects: Project[] = [
             "/images/projects/prjtst1/04.webp",
         ],
         techStack: ["Illustrator", "Photoshop"],
+        featured: true,
     },
     {
         slug: "poster-series-2024",
@@ -65,5 +67,6 @@ export const projects: Project[] = [
             "/images/projects/prjtst2/04.webp",
         ],
         techStack: ["Illustrator", "InDesign"],
+        featured: true,
     },
 ];
